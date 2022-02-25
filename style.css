@@ -1,0 +1,65 @@
+body {
+    padding: 0%;
+    margin: auto;
+    height: 1080;
+    padding-inline-start: 0px;
+}
+
+.food {
+    background-color: firebrick;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    text-align: center;
+    font-size: 30px;
+}
+
+ol li a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    line-height: 2;
+}
+ol li {
+    padding: 50px;
+    text-align: center;
+    background-color: maroon;
+    list-style: none;
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+}
+li {
+    display: inline-block;
+}
+
+
+ol {
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    top: 300px;
+    background-color: darkgrey;
+    padding: 20px;
+    text-align: center;
+}
+
+.foto {
+    position: relative;
+    left: 800px;
+    text-align: center;
+    width: 300px;
+}
+
+@media (max-width: 1080px) {  
+    ul li {
+        size: 50%;
+    }
+}
